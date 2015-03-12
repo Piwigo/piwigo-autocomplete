@@ -1,0 +1,1 @@
+Autouzupełnianie nazw albumów, tagów w szybkiej wyszukiwarce.

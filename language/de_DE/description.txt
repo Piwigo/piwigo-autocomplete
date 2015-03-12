@@ -1,0 +1,1 @@
+Vervollständigt automatisch die Schnellsuche mit Alben, Stichworten oder zufälligen Vorschlägen

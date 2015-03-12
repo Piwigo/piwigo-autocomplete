@@ -1,0 +1,1 @@
+Permet de compléter automatiquement la recherche rapide avec les albums, mots clés (tags) ou même des suggestions personnalisées.
