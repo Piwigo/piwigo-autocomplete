@@ -25,21 +25,18 @@ $lang['Leave empty for automatic gallery search <br>OR enter an url ($r/ at the 
 LUB podaj adres URL ($r/ na początku URL oznaczą tę galerię)<br />
 LUB wpisz q=Wyrażenie by wyszukać określone wyrażenie';
 $lang['Custom'] = 'Niestandardowe';
-$lang['Stop accumulating matches after'] = 'Przestań gromadzić pasujące wyniku po';
-$lang['Look for matches in other languages if the number of matches in main language is less than'] = 'Szukaj dopasowań w innch językach jeżeli liczba pasujących wyników w głównym języku jest mniejsza niż';
 $lang['Use <b>\</b> to break search (e.g. Central Park\, NY will not match NY but it will display it)'] = 'Użyj <b>\</b> by przerwać szukanie (np. Central Park\, NY nie dopasuje NY, ale go wyświetli)';
-$lang['positive matches'] = 'pozytywne dopasowania';
-$lang['Ideal number of suggestions'] = 'Idealna liczba sugestii';
 $lang['Invalidate auto completion index cache'] = 'unieważnić pamięć podręczną autouzupełniania';
-$lang['Maximum number of suggestions'] = 'Maksymalna liczba sugestii';
 $lang['If you change album/tag names or permalink you might want to'] = 'Po zmianie nazwy albumu, taga lub stałego odnośnika możesz chcieć';
 $lang['Query'] = 'Zapytanie';
 $lang['Url'] = 'URL';
-$lang['Actions'] = 'Akcje';
 $lang['Configuration'] = 'Konfiguracja';
 $lang['Create a new suggestion'] = 'Utwórz nową sugestię';
 $lang['Exclude'] = 'Wyklucz';
-$lang['Name'] = 'Nazwa';
-$lang['No data available in table'] = 'Brak danych';
 $lang['Weight'] = 'Waga';
-?>
+$lang['Create new variants'] = 'Stwórz nowe warianty';
+$lang['Ignore it and'] = 'Zignoruj i';
+$lang['Search also for any of the following'] = 'Szukaj jednego z następujących';
+$lang['Search it and'] = 'Szukaj i';
+$lang['Variants'] = 'Warianty';
+$lang['When any of the following words is entered'] = 'Kiedy jedno z następujących slów jest wprowadzone';
