@@ -1,6 +1,6 @@
 <?php /*
 Plugin Name: RV autocomplete
-Version: 2.7.b
+Version: 2.10.a
 Description: Autocompletes the quick search with albums, tags or custom suggestions
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=694
 Author: rvelices

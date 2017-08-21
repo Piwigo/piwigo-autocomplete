@@ -194,7 +194,7 @@ function rvac_save_variant_rules($rules, $callback = null)
 	{
 		foreach($rule['in'] as $in_word)
 		{
-			$in_word_t = transliterate($in_word);
+			$in_word_t = pwg_transliterate($in_word);
 			$results = $rule['out'];
 			$processed = array();
 			if ('a' == $rule['type'])
@@ -202,7 +202,7 @@ function rvac_save_variant_rules($rules, $callback = null)
 
 			for ($i=0; $i<count($results); $i++)
 			{
-				$outkey = $results[$i] == '$i' ? $in_word_t : transliterate($results[$i]);
+				$outkey = $results[$i] == '$i' ? $in_word_t : pwg_transliterate($results[$i]);
 				if (isset($processed[$outkey]))
 				{
 					array_splice($results, $i, 1);
@@ -291,7 +291,7 @@ function rvac_ws_add_or_mod_variant($params, $is_add)
 	if (empty($out))
 		return new PwgError(WS_ERR_INVALID_PARAM, 'output word list empty');
 
-	$in_trans = array_map('transliterate', $in);
+	$in_trans = array_map('pwg_transliterate', $in);
 	sort($in_trans);
 	$key = implode(',', $in_trans);
 	if (strlen($key)>24)

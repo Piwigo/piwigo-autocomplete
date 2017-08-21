@@ -38,7 +38,7 @@ function rvac_normalize($name)
 {
 	$invalid = '&()".,:;-';
 	$name = strtr($name, $invalid, str_repeat(' ', strlen($invalid)));
-	$name = transliterate($name);
+	$name = pwg_transliterate($name);
 	for($i=0; $i<3; $i++)
 		$name = str_replace('  ', ' ', $name);
 	return $name;
@@ -222,7 +222,7 @@ function rvac_on_qsearch_expression_parsed($expr)
 		$all = array_merge( array($token->term), $token->variants);
 
 		$in = $all[0];
-		$in_t = transliterate($in);
+		$in_t = pwg_transliterate($in);
 		if (isset($rmap[$in_t]))
 		{
 			$all = $rmap[$in_t];
@@ -238,7 +238,7 @@ function rvac_on_qsearch_expression_parsed($expr)
 		for ($i=0; $i<count($all); $i++)
 		{
 			$in = $all[$i];
-			$in_t = transliterate($in);
+			$in_t = pwg_transliterate($in);
 
 			if (isset($processed[$in_t]))
 			{
