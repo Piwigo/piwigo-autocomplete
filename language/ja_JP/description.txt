@@ -1,0 +1,2 @@
+Autocompletes the quick search with albums, tags or custom suggestions
+アルバムやタグ、カスタム自動提案で素早く検索するためにオートコンプリートする
