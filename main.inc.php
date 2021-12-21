@@ -5,6 +5,7 @@ Description: Autocompletes the quick search with albums, tags or custom suggesti
 Plugin URI: http://piwigo.org/ext/extension_view.php?eid=694
 Author: rvelices
 Author URI: http://www.modusoptimus.com/
+Has Settings: true
 */
 defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');
 

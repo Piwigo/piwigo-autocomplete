@@ -18,6 +18,8 @@ CREATE  TABLE `'.$prefixeTable.'suggestions` (
   PRIMARY KEY (`id`) ,
   UNIQUE INDEX `i_name` (`name` ASC) )';
 
+  include_once(PHPWG_ROOT_PATH.'admin/include/functions.php');
+
   pwg_query( create_table_add_character_set($q) );
   
   $opts = array( 'excluded_tags'=>array(), 'excluded_albums'=>array() );
